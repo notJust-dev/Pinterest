@@ -30,7 +30,9 @@ const Pin = (props) => {
         </Pressable>
       </View>
 
-      <Text style={styles.title}>{title}</Text>
+      <Text style={styles.title} numberOfLines={2}>
+        {title}
+      </Text>
     </View>
   );
 };
@@ -38,15 +40,18 @@ const Pin = (props) => {
 const styles = StyleSheet.create({
   pin: {
     width: "100%",
+    padding: 4,
   },
   title: {
-    fontSize: 20,
-    fontWeight: "bold",
-    margin: 10,
+    fontSize: 16,
+    lineHeight: 22,
+    fontWeight: "600",
+    margin: 5,
+    color: "#181818",
   },
   image: {
     width: "100%",
-    borderRadius: 25,
+    borderRadius: 15,
   },
   heartBtn: {
     backgroundColor: "#D3CFD4",
