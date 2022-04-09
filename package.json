@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^12.0.0",
+    "@nhost/react": "^0.5.0",
     "@react-navigation/bottom-tabs": "^6.0.5",
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/native-stack": "^6.1.0",
@@ -24,6 +25,7 @@
     "expo-font": "~10.0.4",
     "expo-image-picker": "~12.0.1",
     "expo-linking": "~3.0.0",
+    "expo-secure-store": "~11.1.0",
     "expo-splash-screen": "~0.14.0",
     "expo-status-bar": "~1.2.0",
     "expo-web-browser": "~10.1.0",
